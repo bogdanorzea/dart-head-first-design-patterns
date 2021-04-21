@@ -9,6 +9,15 @@ dart pub get
 ## Patterns
 
 ### Strategy pattern
+Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+
 ```bash
 dart run bin/strategy_pattern.dart
+```
+
+### Observer pattern
+Defines a one-to-many dependency between objects so that when an object changes state, all it's dependents are notified and updated automatically.
+
+```bash
+dart run bin/observer_pattern.dart
 ```
