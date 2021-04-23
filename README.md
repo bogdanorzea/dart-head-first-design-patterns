@@ -21,3 +21,10 @@ Defines a one-to-many dependency between objects so that when an object changes 
 ```bash
 dart run bin/observer_pattern.dart
 ```
+
+### Decorator pattern
+Attach additional responsibilities to an object dynamically. Decorator provides a flexible alternative to sub-classing for extending functionality.
+
+```bash
+dart run bin/decorator_pattern.dart
+```
