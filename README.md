@@ -28,3 +28,12 @@ Attach additional responsibilities to an object dynamically. Decorator provides 
 ```bash
 dart run bin/decorator_pattern.dart
 ```
+
+### Factory pattern
+The Factory Method pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method pattern lets a class defer instantiation to subclasses.
+
+The Abstract Factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+```bash
+dart run bin/factory_pattern.dart
+```
