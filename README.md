@@ -37,3 +37,10 @@ The Abstract Factory pattern provides an interface for creating families of rela
 ```bash
 dart run bin/factory_pattern.dart
 ```
+
+### Singleton pattern
+The Singleton pattern ensures a class has only an instance and provides a global point of access to it.
+
+```bash
+dart run bin/singleton_pattern.dart
+```
