@@ -44,3 +44,10 @@ The Singleton pattern ensures a class has only an instance and provides a global
 ```bash
 dart run bin/singleton_pattern.dart
 ```
+
+### Command pattern
+Encapsulates a request as an object, thereby letting you parametrize clients with different requests, queue or log request, and support undo-able operations;
+
+```bash
+dart run bin/command_pattern.dart
+```
