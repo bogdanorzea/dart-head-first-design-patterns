@@ -57,3 +57,9 @@ Converts the interface of a class into another interface the client expects. Ada
 ```bash
 dart run bin/adapter_pattern.dart
 ```
+
+### Facade pattern
+Provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-lever interface that makes the subsystem easier to use.
+```bash
+dart run bin/facade_pattern.dart
+```
