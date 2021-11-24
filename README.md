@@ -46,8 +46,14 @@ dart run bin/singleton_pattern.dart
 ```
 
 ### Command pattern
-Encapsulates a request as an object, thereby letting you parametrize clients with different requests, queue or log request, and support undo-able operations;
+Encapsulates a request as an object, thereby letting you parametrize clients with different requests, queue or log request, and support undo-able operations.
 
 ```bash
 dart run bin/command_pattern.dart
+```
+
+### Adapter pattern
+Converts the interface of a class into another interface the client expects. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+```bash
+dart run bin/adapter_pattern.dart
 ```
