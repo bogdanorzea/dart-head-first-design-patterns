@@ -69,3 +69,9 @@ Define the skeleton of an algorithm in an operation, deferring some steps to sub
 ```bash
 dart run bin/template_method_pattern.dart
 ```
+
+### Iterator pattern
+Provides a way to access elements of aggregate object sequentially without exposing it's underlying representation.
+```bash
+dart run bin/iterator_pattern.dart
+```
