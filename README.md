@@ -75,3 +75,9 @@ Provides a way to access elements of aggregate object sequentially without expos
 ```bash
 dart run bin/iterator_pattern.dart
 ```
+
+### Composite pattern
+Allows to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+```bash
+dart run bin/composite_pattern.dart
+```
