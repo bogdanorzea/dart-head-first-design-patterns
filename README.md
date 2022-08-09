@@ -81,3 +81,9 @@ Allows to compose objects into tree structures to represent part-whole hierarchi
 ```bash
 dart run bin/composite_pattern.dart
 ```
+
+### State pattern
+Allow an object to alter its behavior when its internal state changes. The object will appear to change its class
+```bash
+dart run bin/state_pattern.dart
+```
