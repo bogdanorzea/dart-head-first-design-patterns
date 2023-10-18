@@ -6,15 +6,15 @@ import 'package:dart_head_first_design_patterns/state_pattern/states/state.dart'
 import 'package:dart_head_first_design_patterns/state_pattern/states/winner_state.dart';
 
 class GumballMachine {
-  State soldOutState;
-  State noQuarterState;
-  State hasQuarterState;
-  State soldState;
-  State winnerState;
+  late State soldOutState;
+  late State noQuarterState;
+  late State hasQuarterState;
+  late State soldState;
+  late State winnerState;
 
-  State _state;
+  late State _state;
 
-  int _count;
+  late int _count;
   int get count => _count;
 
   GumballMachine(int numberOfGumballs) {

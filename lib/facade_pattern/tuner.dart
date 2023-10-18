@@ -3,7 +3,8 @@ import 'package:dart_head_first_design_patterns/facade_pattern/amplifier.dart';
 class Tuner {
   final String description;
   final Amplifier amplifier;
-  double frequency;
+
+  late double frequency;
 
   Tuner(this.description, this.amplifier);
 

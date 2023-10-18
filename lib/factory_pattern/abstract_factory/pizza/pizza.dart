@@ -1,14 +1,14 @@
 import '../ingredients/ingredients.dart';
 
 abstract class Pizza {
-  String name;
+  late String name;
 
-  Ingredient cheese;
-  Ingredient clams;
-  Ingredient dough;
-  Ingredient sauce;
-  Ingredient pepperoni;
-  Iterable<Ingredient> veggies;
+  late Ingredient cheese;
+  late Ingredient clams;
+  late Ingredient dough;
+  late Ingredient sauce;
+  late Ingredient pepperoni;
+  late Iterable<Ingredient> veggies;
 
   void bake() {
     print('Bake for 25 minutes at 350');

@@ -1,7 +1,7 @@
 import 'commands.dart';
 
 class SimpleRemoteControl {
-  Command slot;
+  late Command slot;
 
   void buttonWasPressed() {
     slot.execute();

@@ -4,8 +4,8 @@ class StreamingPlayer {
   final String description;
   final Amplifier amplifier;
 
-  String movie;
-  int currentChapter;
+  String? movie;
+  late int currentChapter;
 
   StreamingPlayer(this.description, this.amplifier);
 

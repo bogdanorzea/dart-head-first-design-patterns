@@ -4,9 +4,9 @@ import 'package:dart_head_first_design_patterns/facade_pattern/tuner.dart';
 class Amplifier {
   final String description;
 
-  StreamingPlayer player;
-  Tuner tuner;
-  int volume;
+  late StreamingPlayer player;
+  late Tuner tuner;
+  late int volume;
 
   Amplifier(this.description);
 

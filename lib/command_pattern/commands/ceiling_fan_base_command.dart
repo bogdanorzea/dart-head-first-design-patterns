@@ -3,7 +3,7 @@ import 'command.dart';
 
 abstract class CeilingFanBaseCommand implements Command {
   final CeilingFan ceilingFan;
-  int previousSpeed;
+  late int previousSpeed;
 
   CeilingFanBaseCommand(this.ceilingFan);
 

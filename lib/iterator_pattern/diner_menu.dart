@@ -4,7 +4,7 @@ import 'menu_item.dart';
 class DinerMenu implements Menu {
   static final int MAX_ITEMS = 6;
   int numberOfItems = 0;
-  final List<MenuItem> menuItems = List.filled(MAX_ITEMS, null);
+  final List<MenuItem?> menuItems = List.filled(MAX_ITEMS, null);
 
   DinerMenu() {
     addItem(
@@ -51,13 +51,13 @@ class DinerMenu implements Menu {
 }
 
 class DinerMenuIterator implements Iterator<MenuItem> {
-  final List<MenuItem> menuItems;
+  final List<MenuItem?> menuItems;
   int position = -1;
 
   DinerMenuIterator(this.menuItems);
 
   @override
-  MenuItem get current => menuItems[position];
+  MenuItem get current => menuItems[position]!;
 
   @override
   bool moveNext() {
