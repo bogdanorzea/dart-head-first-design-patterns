@@ -87,3 +87,11 @@ Allow an object to alter its behavior when its internal state changes. The objec
 ```bash
 dart run bin/state_pattern.dart
 ```
+
+### Proxy pattern
+Provides a surrogate or placeholder for another object to control access to it.
+```bash
+dart run bin/proxy_pattern_machine.dart 4040
+dart run bin/proxy_pattern_machine.dart 4041
+dart run bin/proxy_pattern_monitor.dart
+```
